@@ -1,0 +1,17 @@
+module AgendaInterface{
+
+	interface Agenda{
+	
+		string inserirContato(in string nome, in string telefone);
+		
+		string removerContato(in string nome);
+		
+		string atualizarContato(in string nome, in string telefone);
+		
+		string consultarContatos();
+		
+		string informarNomeAgenda();
+		
+		void atualizarAgenda(in string contatos);
+	};
+};
